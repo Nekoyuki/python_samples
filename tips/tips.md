@@ -1,6 +1,6 @@
 ## ディレクトリの中のファイルを取得してまわす。
 
-```
+```python
 import pandas as pd
 from pathlib import Path
 p = Path(".")
@@ -11,7 +11,7 @@ for i in p.glob("*.csv"):
 ```
 
 ## ファイルを読み込む。
-```
+```python
 with open('aaa.csv', 'r') as f:
     r = f.readline()
     while(r):
@@ -20,6 +20,6 @@ with open('aaa.csv', 'r') as f:
 ```
 
 ## 16進数
-```
+```python
 int('10', 16)
 ```
